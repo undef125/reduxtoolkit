@@ -12,7 +12,6 @@ const SingleCartItem = ({ name, price, index }) => {
             <button
                 onClick={() => {
                     dispatch(removeItem(index));
-                    console.log(index);
                 }}
             >
                 Remove
