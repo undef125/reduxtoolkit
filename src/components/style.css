@@ -1,0 +1,39 @@
+.shopHolder {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.itemHolder {
+    height: 15rem;
+    width: fit-content;
+    background-color: rgb(196, 203, 209);
+    box-shadow: 1px 1px 4px rgb(31, 103, 103);
+}
+
+.imageHolder {
+    height: 10rem;
+    width: 10rem;
+    overflow: hidden;
+}
+.imageHolder > img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.cartContainer {
+    height: 15rem;
+    width: 100%;
+    background-color: rgb(182, 183, 183);
+}
+
+.cartitemholder{
+    background-color: rgb(81, 149, 148);
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+}
